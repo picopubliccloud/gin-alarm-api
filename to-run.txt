@@ -1,0 +1,8 @@
+export S3_ENDPOINT=https://pico-bucket.kkr.picopublic.cloud
+export S3_BUCKET=ticketing
+export S3_REGION=us-east-1
+export S3_ACCESS_KEY=YOUR_ACCESS_KEY
+export S3_SECRET_KEY=YOUR_SECRET_KEY
+export S3_KEY_PREFIX=tickets/
+
+go run main.go
